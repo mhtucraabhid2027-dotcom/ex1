@@ -1,0 +1,66 @@
+body{
+    text-align: center; /* 文字置中 */
+    background: #fefae0; /*背景顏色*/
+    color: #bc6c25; /*文字顏色*/
+    padding: 0;/*歸零*/
+    margin: 0;
+}
+
+/*nav*/
+
+nav{
+    background: #bc6c25;
+}
+
+nav a{
+    background: #000000;
+    padding:20px;/*增胖點擊範圍外框*/
+    display:inline-block;/*後面內幅橘色增高符合增胖後的大小*/
+    color: #fefae0;
+    text-decoration: none;/*要不要底線，不要預設的底線，就不要設定這個。*/
+}
+nav a:hover{
+    background: #fefae0;
+    color: #bc6c25;
+}
+
+/*section*/
+section{
+    width: 80%; /*視窗的80%*/
+    margin: auto; /*物件置中*/
+}
+
+/* article */
+article{
+    display: inline-block;
+    border:solid 1px rgba(188, 108, 37, 0.2);
+    width: 200px;
+    margin: 20px;
+}
+
+article img{
+    width: 80%;/*圖片多寬*/
+    border-radius: 50%;/*倒多少R角*/
+}
+
+article a{
+    display:inline-block;
+    color:#bc6c25;
+    background: #ffffff;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+article a:hover{ /*滑鼠滑過*/
+    color:#ffffff;
+    background: #BC6C25;
+}
+article a:active{/*點擊瞬間，手機。*/
+    color:#ffffff;
+    background: #DDA15E;
+}
+
+/*footer*/
+footer{
+    margin: 50px;
+}
