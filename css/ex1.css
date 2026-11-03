@@ -1,6 +1,6 @@
 body {
-    /* 黑灰白交織漸層底色 */
-    background: linear-gradient(135deg, #f0f0f0 0%, #8a8a8a 50%, #2c2c2c 100%);
+    /* 黑灰白交織底色 */
+    background: linear-gradient(135deg, #8a8a8a 0%, #8a8a8a 50%, #8a8a8a 100%);
     background-attachment: fixed;
     color: #222;
     /* 設定可愛圓潤字體 */
@@ -21,7 +21,6 @@ body {
     text-shadow: 2px 2px 4px #aaa;
     background-color: rgba(255, 255, 255, 0.85);
 }
-
 
 .平時作業 {
     font-size: 40px;
@@ -121,8 +120,9 @@ bolder {
 footer {
     margin-top: 40px;
     padding: 15px;
-    background-color: rgba(30, 30, 30, 0.9);
-    border-top: 3px solid #888;
+    /* 已將最底部的背景顏色更改為純灰色 */
+    background-color: #333; 
+    border-top: 3px solid #555;
     color: #fff;
     border-radius: 10px;
 }
